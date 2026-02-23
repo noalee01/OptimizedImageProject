@@ -1,18 +1,25 @@
-# IntelliJ IDEA
-*.idea/
+# IntelliJ / PyCharm
+.idea/
 *.iml
 *.iws
 *.ipr
 
-# Build files
-out/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+venv/
+
+# Build
 build/
 dist/
+out/
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
-# Python (if applicable)
-__pycache__/
-*.pyc
+# Jupyter - just in case
+.ipynb_checkpoints/
